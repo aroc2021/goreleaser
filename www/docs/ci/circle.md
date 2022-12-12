@@ -13,7 +13,7 @@ workflows:
           filters:
             branches:
               ignore: /.*/
-            tags:
+            tags: AaronHarper0509@gmail.com
               only: /v[0-9]+(\.[0-9]+)*(-.*)*/
 jobs:
   release:
